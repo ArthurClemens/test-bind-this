@@ -5,7 +5,7 @@
     "../src/Button.svelte"
   ],
   "sourcesContent": [
-    "<script>\n  // DOM binding\n  let domElement;\n\n  export let label;\n\n  const onClick = e => {\n    e.preventDefault();\n    console.log(\"onClick\", e);\n    console.log(\"domElement=\", domElement);\n  };\n\n</script>\n\n<style>\n.button {\n  padding: 6px 12px;\n  border: 1px solid currentColor;\n  display: inline-block;\n  border-radius: 3px;\n}\n.button:hover {\n  text-decoration: none;\n}\n</style>\n\n<a class=\"button\" bind:this={domElement} on:click={onClick} href=\"/\">{label} - domElement={domElement}</a>\n"
+    "<script>\n  // DOM binding\n  let domElement;\n\n  export let label;\n\n  const onClick = e => {\n    e.preventDefault();\n    console.log(\"onClick\", e);\n    console.log(\"domElement=\", domElement);\n  };\n\n</script>\n\n<style>\n.button {\n  padding: 6px 12px;\n  border: 1px solid currentColor;\n  display: inline-block;\n  border-radius: 3px;\n}\n.button:hover {\n  text-decoration: none;\n}\n</style>\n\n<a class=\"button\" bind:this={domElement} on:click={onClick} href=\"/\">\n  {label} - domElement={domElement}\n</a>\n"
   ],
   "names": [],
   "mappings": "AAeA,OAAO,eAAC,CAAC,AACP,OAAO,CAAE,GAAG,CAAC,IAAI,CACjB,MAAM,CAAE,GAAG,CAAC,KAAK,CAAC,YAAY,CAC9B,OAAO,CAAE,YAAY,CACrB,aAAa,CAAE,GAAG,AACpB,CAAC,AACD,sBAAO,MAAM,AAAC,CAAC,AACb,eAAe,CAAE,IAAI,AACvB,CAAC"

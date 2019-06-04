@@ -24,4 +24,6 @@
 }
 </style>
 
-<a class="button" bind:this={domElement} on:click={onClick} href="/">{label} - domElement={domElement}</a>
+<a class="button" bind:this={domElement} on:click={onClick} href="/">
+  {label} - domElement={domElement}
+</a>

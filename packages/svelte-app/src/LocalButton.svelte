@@ -9,7 +9,6 @@
     console.log("onClick", e);
     console.log("domElement=", domElement);
   };
-  
 </script>
 
 <style>
@@ -24,4 +23,6 @@
 }
 </style>
 
-<a class="button" bind:this={domElement} on:click={onClick} href="/">{label} - domElement={domElement}</a>
+<a class="button" bind:this={domElement} on:click={onClick} href="/">
+  {label} - domElement={domElement}
+</a>

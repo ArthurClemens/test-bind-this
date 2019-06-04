@@ -1,12 +1,8 @@
 <script>
-	import { Button } from "lib-with-bind-this";
+	import Button from "lib-with-bind-this";
 	import ButtonFromPath from "../../lib-with-bind-this/src/Button.svelte";
 	import LocalButton from "./LocalButton.svelte";
 </script>
-
-<style>
-
-</style>
 
 <h1>Svelte tests for bind:this</h1>
 
