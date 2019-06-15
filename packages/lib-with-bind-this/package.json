@@ -18,7 +18,7 @@
     "sirv-cli": "^0.4.3"
   },
   "peerDependencies": {
-    "svelte": "^3.4.4"
+    "svelte": "^3.5.1"
   },
   "author": "Arthur Clemens <arthurclemens@gmail.com> (http://visiblearea.com)",
   "license": "MIT"
